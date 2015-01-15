@@ -2,8 +2,8 @@
 public class Hero {
 	
 	//Private Properties
-	private int strength;
-	private int speed;
+	protected int strength;
+	protected int speed;
 	private int health;
 	public String name;
 	

@@ -10,4 +10,6 @@ public class Villain extends Hero {
 	public void steals(){
 		System.out.println(this.name  + " is stealing");
 	}
+	
+	
 }

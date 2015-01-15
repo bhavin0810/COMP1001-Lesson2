@@ -5,7 +5,7 @@ public class Project {
 		// TODO Auto-generated method stub
 			
 		//instantiate Hero 
-		Hero hero  = new Hero("Bhavin");
+		StrongMan hero  = new StrongMan("Bhavin");
 		hero.fight();
 		hero.run();
 		hero.showAbilities();
@@ -14,6 +14,13 @@ public class Project {
 		Villain villain  = new Villain("Viral");
 		villain.steals();
 		villain.showAbilities();
+		
+		//instantiate Hero 
+		Vigilante vigilante  = new Vigilante("Sagar");
+		vigilante.run();
+		vigilante.steals();
+		vigilante.dealsJustice();
+		vigilante.showAbilities();
 		
 	}
 
