@@ -29,7 +29,7 @@ public class Hero {
 	}
 
 	//constructor of the class
-	public Hero(){
+	public Hero(String name){
 		this.setName(name);
 		
 		generateAbilities();
