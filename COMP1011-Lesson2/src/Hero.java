@@ -5,7 +5,7 @@ public class Hero {
 	private int strength;
 	private int speed;
 	private int health;
-	private String name;
+	public String name;
 	
 	///Getters and Setters
 	public int getStrength() {
@@ -20,17 +20,9 @@ public class Hero {
 		return health;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	//constructor of the class
 	public Hero(String name){
-		this.setName(name);
+		this.name = name;
 		
 		generateAbilities();
 	}
@@ -53,11 +45,11 @@ public class Hero {
 	}
 	
 	public void fight(){
-		System.out.println( this.getName() + " is Fighting");		
+		System.out.println( this.name + " is Fighting");		
 	}
 	
 	public void run(){
-		System.out.println( this.getName() + " is Running");
+		System.out.println( this.name + " is Running");
 	}
 
 	

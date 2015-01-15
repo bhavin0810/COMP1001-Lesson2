@@ -10,6 +10,10 @@ public class Project {
 		hero.run();
 		hero.showAbilities();
 		
+		//instantiate Hero 
+		Villain villain  = new Villain("Viral");
+		villain.steals();
+		villain.showAbilities();
 		
 	}
 
