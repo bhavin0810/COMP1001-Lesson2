@@ -13,12 +13,14 @@ public class Project {
 		//instantiate Hero 
 		Villain villain  = new Villain("Viral");
 		villain.steals();
+		villain.kills();
 		villain.showAbilities();
 		
 		//instantiate Hero 
 		Vigilante vigilante  = new Vigilante("Sagar");
 		vigilante.run();
 		vigilante.steals();
+		vigilante.kills();
 		vigilante.dealsJustice();
 		vigilante.showAbilities();
 		
